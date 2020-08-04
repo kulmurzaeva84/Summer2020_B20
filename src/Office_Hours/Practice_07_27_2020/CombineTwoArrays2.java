@@ -1,0 +1,45 @@
+package Office_Hours.Practice_07_27_2020;
+
+import java.util.Arrays;
+
+public class CombineTwoArrays2 {
+    public static void main(String[] args) {
+
+        char[] a1= {'A','B','C'};
+        char[] a2 = {'D','E','F','G','H','I','J'};
+
+        char[] a3= new char[a1.length+a2.length];
+
+/*      a3[0] = a1[0]; // A
+        a3[1] = a1[1];  // B
+        a3[2] = a1[2];  // C
+
+        a3[3] = a2[0];  // D
+        a3[4] = a2[1];  // E
+        a3[5] = a2[2];  // F
+*/
+        int index=0;
+
+        for(int i=0; i<= a1.length-1; i++){
+            a3[index] = a1[i];
+            index++;
+        }
+
+        for(int i=0; i<= a2.length-1; i++){
+            a3[index] = a2[i];
+            index++;
+        }
+        System.out.println(Arrays.toString(a3));
+
+
+
+
+
+
+    }
+
+
+
+
+
+}
