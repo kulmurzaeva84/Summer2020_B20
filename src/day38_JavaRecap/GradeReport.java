@@ -48,6 +48,14 @@ public class GradeReport {
         gradeF.removeAll(gradeD);
         System.out.println("Grade F:"+ gradeF);
 
+        // how many students made A, B, C ,D F grades
+        // for it we need to get the size of students
+        System.out.println(gradeA.size()+ " students made A");
+        System.out.println(gradeB.size()+ " students made B");
+        System.out.println(gradeC.size()+ " students made C");
+        System.out.println(gradeD.size()+ " students made D");
+        System.out.println(gradeF.size()+ " students failed");
+
 
 
     }
